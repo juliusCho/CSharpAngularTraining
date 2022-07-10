@@ -42,7 +42,7 @@
         class="dropdown-toggle text-light"
         style="margin-left: 10px"
         dropdownToggle
-        >Welcome {{ user.userName | titlecase }}</a
+        >Welcome {{ user.knownAs | titlecase }}</a
       >
       <div class="dropdown-menu mt-3" *dropdownMenu="">
         <a class="dropdown-item" routerLink="/member/edit">Edit Profile</a>
